@@ -49,13 +49,13 @@ header{
      
     }
     .smallportfoliopic {
-     width: 40%
+     width: 500px
 
    } 
    #smallportpics {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
    }
    
    
