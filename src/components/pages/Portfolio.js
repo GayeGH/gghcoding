@@ -6,6 +6,7 @@ import weatherappImage from '../../assets/weatherapp.png';
 import employeetrackerImage from '../../assets/employeetracker.png';
 import notetakerImage from '../../assets/notetaker.png';
 import teamprofgenImage from '../../assets/teamprofgen.png';
+import findmysitterImage from '../../assets/findmysitter.png';
 function Portfolio() {
   return (
     
@@ -42,7 +43,10 @@ function Portfolio() {
 
          <a href="https://github.com/GayeGH/Team-Profile-Generator">
             <img src={teamprofgenImage}   alt="teamprofgen" className="smallportfoliopic"/>
-         </a>
+            </a>
+          <a href="https://github.com/Lwalsh2022/Find-My-Sitter">
+            <img src={findmysitterImage}   alt="findmysitter" className="smallportfoliopic"/> 
+           </a>
         </div>
         
       </div>
