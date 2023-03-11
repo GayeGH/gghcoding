@@ -1,62 +1,7 @@
-/* .App {
- text-align: center;
-}
-
-
-.App-logo {
- height: 40vmin;
- pointer-events: none;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
- .App-logo {
-   animation: App-logo-spin infinite 20s linear;
- }
-}
-
-
-.App-header {
- background-color: #282c34;
- min-height: 100vh;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- font-size: calc(10px + 2vmin);
- color: white;
-}
-
-
-.App-link {
- color: #61dafb;
-}
-
-
-@keyframes App-logo-spin {
- from {
-   transform: rotate(0deg);
- }
- to {
-   transform: rotate(360deg);
- }
-} */
- * {box-sizing: border-box; ;
-  /* box-sizing:border-box; */
-  padding: 10;
-  margin: 10;
-  border: 1px
-  /* border: 1px solid black; */
-  }
- body{
-  background-color:rgb(218, 213, 213);
-  font-family: Arial;
-  margin: 10;
- }
- 
-* header {
+/* 
+.header {
   width: 100;
-  padding:30px;
+  padding: 30px;
   text-align: center;
   background-color: #f4e3f5;
   color: rgb(86, 84, 84);
@@ -65,11 +10,11 @@
   border:solid;
   border-width: 30px;
   border-color: white;
-   } */
+   } 
  
  
  ul {
-  display: flex;
+  
   justify-content:space-around;
   list-style-type: none;
   margin-right: 0;
@@ -77,15 +22,16 @@
   text-align: center;
   color:rgb(84, 80, 80);
  
- 
- }
- /* this is the code for different sections*/
+}
+
  div  {
   font-family: Arial, Helvetica, sans-serif;
   font-size:large;
   font-weight: 100;
   color: rgb(84, 80, 80);
   text-align: center;
+
+  align-items: center;
   }
  
  
@@ -98,7 +44,7 @@
  
  
   .card {
-      display: flex;
+      
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
@@ -106,13 +52,4 @@
       text-align: center;
       padding: 50px;
   }
-  
- 
- 
-  
- 
- 
- 
- 
- 
- 
+   */
