@@ -57,6 +57,11 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
    }
+
+  #footerimages {
+    display: flex;
+    justify-content: space-around;
+  }
    
    
    

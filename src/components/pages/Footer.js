@@ -1,13 +1,18 @@
 import React from 'react';
-import githubImage from '../../assets/github.png'
+import githubImage from '../../assets/github.png';
+import indeedImage from '../../assets/indeed.png';
 export default function App() {
   return (
     
 
-      <div>
-        © 2023 Copyright:
+      <div id="footerimages">
+        © 2023 Copyright
         <a href="https://github.com/GayeGH">
-          <img src={githubImage} alt="github"/>
+          <img src={githubImage} alt="githublogo"/>
+          </a>
+
+          <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage&_ga=2.13748415.922634521.1678534065-602772814.1677172522">
+          <img src={indeedImage} alt="indeedlogo"/>
           </a>
           
     
